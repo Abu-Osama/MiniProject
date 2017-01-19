@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context="com.example.abuosama.miniproject.FragRegister">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scaleType="fitXY"
+         android:background="@drawable/lo"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/register_header_logo"
+        android:textSize="30sp"
+        android:text="Register here"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="20"
+        android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="E No"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:padding="6dp"
+            android:textColor="#000"
+            android:id="@+id/eno"
+            android:textColorHint="#000"
+            android:background="@drawable/myshape1"
+            android:hint="enter a user name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="E Name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:textColor="#000"
+            android:id="@+id/ename"
+            android:textColorHint="#000"
+            android:background="@drawable/myshape1"
+            android:hint="enter a user name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="E Mail"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:textColor="#000"
+            android:id="@+id/email"
+            android:textColorHint="#000"
+            android:background="@drawable/myshape1"
+            android:hint="enter a user name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Password"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:id="@+id/password"
+            android:textColorHint="#000"
+            android:background="@drawable/myshape1"
+            android:hint="enter a user name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Confirm "/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:textColor="#000"
+            android:id="@+id/confirm"
+            android:inputType="textPassword"
+            android:textColorHint="#000"
+            android:background="@drawable/myshape1"
+            android:hint="enter a user name"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="Hint"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:textColor="#000"
+                android:id="@+id/hint"
+                android:textColorHint="#000"
+                android:background="@drawable/myshape1"
+                android:hint="enter a user name"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/register"
+            android:background="@drawable/myshape1"
+            android:text="Register"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:padding="6dp"
+            android:id="@+id/login"
+            android:text="Login"
+            android:textColor="#000"
+            android:background="@drawable/myshape1"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
